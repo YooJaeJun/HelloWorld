@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameCore.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShootGoalIn\Coord.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShootGoalIn\Fps.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShootGoalIn\Screen.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShootGoalIn\Unit.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{41867c97-d4dd-4394-b503-0f8fa768bef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure">
+      <UniqueIdentifier>{f336c9a6-36ea-4b17-86eb-53a52b5f4459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{5ee4861c-1ba0-485d-b2be-e8d18cb577aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Color.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="..\ShootGoalIn\Coord.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShootGoalIn\Fps.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShootGoalIn\Screen.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShootGoalIn\Unit.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

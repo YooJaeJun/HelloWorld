@@ -117,241 +117,19 @@
     <ClCompile Include="common\strstr.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 K번째수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 기능개발 %28스택큐%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 로또의 최고 순위와 최저 순위 %28c%292.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 로또의 최고 순위와 최저 순위 %28c++%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 모의고사.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 소수 만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 숫자 문자열과 영단어 - 모범1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 숫자 문자열과 영단어 - 모범2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 숫자 문자열과 영단어.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 신규 아이디 추천 - 모범.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 신규 아이디 추천.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 없는 숫자 더하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 오픈채팅방.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 완주하지 못한 선수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 음양 더하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[코] 입체기동장치 생산공장.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 체육복.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[코] 석차.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 크레인 인형뽑기 게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프]______카카오프렌즈 컬러링북.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 실패율.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 약수의 개수와 덧셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] 3진법 뒤집기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 예산.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프]_____ 문자열 압축.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="common\DFS, BFS.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b3 2522 2446... 등 별찍기 모음.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="common\가변인자함수 %28백준1463%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 카카오 프렌즈 컬러링북 %28bfs%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b2 1075 나누기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 1032 명령 프롬프트.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 1110 더하기 사이클.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 2748 피보나치 수 2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b3 b1 11718 11719 그대로 출력하기 1, 2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 1010 다리 놓기 %28경우의수 파스칼삼각형%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 1037 약수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 1002 터렛.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 두 개 뽑아서 더하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 2016년.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 최소직사각형.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 문자열 압축.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 멀쩡한 사각형.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b2 8958 OX퀴즈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 4344 평균은 넘겠지.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 4673 셀프 넘버.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 1065 한수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 1157 단어 공부.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b2 1152 단어의 개수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 1316 그룹 단어 체커.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b2 2292 벌집.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b3 3460 이진수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="common\두더지 게임 백업.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 1543 문서 검색.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b2 2920 음계.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 1018 체스판 다시 칠하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 단체사진 찍기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="common\정렬의 모든 것.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 1181 단어 정렬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 더 맵게 %28우선순위 큐%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 부족한 금액 계산하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 124 나라의 숫자.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 짝지어 제거하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 2669 직사각형 네개의 합집합의 면적 구하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[코] 정수 1개 입력받아 나누어 출력하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[코] 성실한 개미.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 비밀지도.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 다트 게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 두 정수 사이의 합.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 문자열 내 마음대로 정렬하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 소수 찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 시저 암호.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 N개의 최소공배수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 JadenCase 문자열 만들기cpp.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 게임 맵 최단거리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 1021 회전하는 큐.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b3 1009 분산처리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="common\dynamic_cast.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b2 3040 백설 공주와 일곱 난쟁이.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 2167 2차원 배열의 합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="common\마우스 매크로.cpp">
@@ -370,36 +148,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="stack\studentStack.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b5 1550 16진수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s3 1463 1로 만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 2007년.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 1769 3의 배수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 키패드 누르기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 타겟 넘버.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l1 폰켓몬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 피보나치 수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 행렬의 곱셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프]_________.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="common\디아블로식 인벤토리 - 모범.cpp">
@@ -483,12 +231,6 @@
     <ClCompile Include="binaryTree\threadedBinTree.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 2869 달팽이는 올라가고 싶다.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 1158 요세푸스 문제.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="heap,priorityQueue\heapSort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -496,12 +238,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="heap,priorityQueue\maxHeap.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s2 1260 DFS와 BFS.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s3 2606 바이러스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="graph\adjListGraph.cpp">
@@ -522,69 +258,6 @@
     <ClCompile Include="graph\topoSortGraph.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="codingTest\[백] s3 1874 스택 수열.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 2740 행렬 곱셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s3 1406 에디터.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 10845 큐.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 7113 Rectangle.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s2 1012 유기농 배추.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] g5 1068 트리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s3 2078 무한이진트리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s1 1149 RGB거리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s2 4963 섬의 개수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s1 2667 단지번호붙이기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s2 11724 연결 요소의 개수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 최솟값 만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s1 1260 미로 탐색 .cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프]________리틀 프렌즈 사천성 .cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l3 정수 삼각형.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] g5 7576 토마토.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 숫자의 표현.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백]_____ 게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s1 1303 전쟁 - 전투.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s1 1325 효율적인 해킹.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="wGraph\shortestPathDijkstra.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -597,142 +270,10 @@
     <ClCompile Include="wGraph\wGraphMST.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 2303 숫자 게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="codingTest\[_백준포맷_].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 1026 보물.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s1 1080 행렬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 1145 적어도 대부분의 배수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 1436 영화감독 숌.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 1920 수 찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 1978 소수 찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 2164 카드2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 2609 최대공약수와 최소공배수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b2 2798 블랙잭.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b3 4153 직각삼각형.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 9012 괄호.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] g2 20543 폭탄 던지는 태영이.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b3 10250 ACM 호텔.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 10814 나이순 정렬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 10816 숫자 카드 2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 10828 스택.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 10866 덱.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 11050 이항 계수 1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 11650 좌표 정렬하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 11866 요세푸스 문제 0.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s3 1929 소수 구하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s3 1966 프린터 큐.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] g5 14940 쉬운 최단거리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] g4 1967 트리의 지름.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] g5 1240 노드사이의 거리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] g2 1103 게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s3 1654 랜선 자르기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s3 2108 통계학.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b2 2231 분해합.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b2 2775 부녀회장이 될테야.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s3 2805 나무 자르기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] g3 1167 트리의 지름.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[프] l2 최댓값과 최솟값.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b1 2839 설탕 배달.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] g5 2293 동전1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="common\병합 정렬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 10989 수 정렬하기3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 4949 균형잡힌 세상.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s4 10773 제로.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 11651 좌표 정렬하기 2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] b2 15829 Hashing.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] g5 1245 농장 관리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s5 7568 덩치.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codingTest\[백] s2 18111 마인크래프트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
