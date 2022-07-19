@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="codingTest\[백] b2 15829 Hashing.cpp" />
+    <ClCompile Include="codingTest\[백] g5 1245 농장 관리.cpp" />
+    <ClCompile Include="codingTest\[백] s2 18111 마인크래프트.cpp" />
+    <ClCompile Include="codingTest\[백] s4 10773 제로.cpp" />
+    <ClCompile Include="codingTest\[백] s4 4949 균형잡힌 세상.cpp" />
+    <ClCompile Include="codingTest\[백] b1 11050 이항 계수 1.cpp" />
+    <ClCompile Include="codingTest\[백] b1 2839 설탕 배달.cpp" />
+    <ClCompile Include="codingTest\[백] b2 2231 분해합.cpp" />
+    <ClCompile Include="codingTest\[백] b2 2775 부녀회장이 될테야.cpp" />
+    <ClCompile Include="codingTest\[백] b2 2798 블랙잭.cpp" />
+    <ClCompile Include="codingTest\[백] b3 10250 ACM 호텔.cpp" />
+    <ClCompile Include="codingTest\[백] b3 4153 직각삼각형.cpp" />
+    <ClCompile Include="codingTest\[백] g2 1103 게임.cpp" />
+    <ClCompile Include="codingTest\[백] g2 20543 폭탄 던지는 태영이.cpp" />
+    <ClCompile Include="codingTest\[백] g3 1167 트리의 지름.cpp" />
+    <ClCompile Include="codingTest\[백] g4 1967 트리의 지름.cpp" />
+    <ClCompile Include="codingTest\[백] g5 1240 노드사이의 거리.cpp" />
+    <ClCompile Include="codingTest\[백] g5 14940 쉬운 최단거리.cpp" />
+    <ClCompile Include="codingTest\[백] g5 2293 동전1.cpp" />
+    <ClCompile Include="codingTest\[백] g5 7576 토마토.cpp" />
+    <ClCompile Include="codingTest\[백] s1 1080 행렬.cpp" />
+    <ClCompile Include="codingTest\[백] s1 1260 미로 탐색 .cpp" />
+    <ClCompile Include="codingTest\[백] s1 1303 전쟁 - 전투.cpp" />
+    <ClCompile Include="codingTest\[백] s1 1325 효율적인 해킹.cpp" />
+    <ClCompile Include="codingTest\[백] s2 1012 유기농 배추.cpp" />
+    <ClCompile Include="codingTest\[백] g5 1068 트리.cpp" />
+    <ClCompile Include="codingTest\[백] s3 1654 랜선 자르기.cpp" />
+    <ClCompile Include="codingTest\[백] s3 1929 소수 구하기.cpp" />
+    <ClCompile Include="codingTest\[백] s3 1966 프린터 큐.cpp" />
+    <ClCompile Include="codingTest\[백] s3 2108 통계학.cpp" />
+    <ClCompile Include="codingTest\[백] s3 2805 나무 자르기.cpp" />
+    <ClCompile Include="codingTest\[백] s4 1026 보물.cpp" />
+    <ClCompile Include="codingTest\[백] s4 10816 숫자 카드 2.cpp" />
+    <ClCompile Include="codingTest\[백] s4 10828 스택.cpp" />
+    <ClCompile Include="codingTest\[백] s4 10845 큐.cpp" />
+    <ClCompile Include="codingTest\[백] s1 1149 RGB거리.cpp" />
+    <ClCompile Include="codingTest\[백] s2 1260 DFS와 BFS.cpp" />
+    <ClCompile Include="codingTest\[백] s3 1406 에디터.cpp" />
+    <ClCompile Include="codingTest\[백] s3 1874 스택 수열.cpp" />
+    <ClCompile Include="codingTest\[백] s3 2078 무한이진트리.cpp" />
+    <ClCompile Include="codingTest\[백] s3 2606 바이러스.cpp" />
+    <ClCompile Include="codingTest\[백] s1 2667 단지번호붙이기.cpp" />
+    <ClCompile Include="codingTest\[백] b1 2740 행렬 곱셈.cpp" />
+    <ClCompile Include="codingTest\[백] s2 4963 섬의 개수.cpp" />
+    <ClCompile Include="codingTest\[백] s4 10866 덱.cpp" />
+    <ClCompile Include="codingTest\[백] s4 11866 요세푸스 문제 0.cpp" />
+    <ClCompile Include="codingTest\[백] s4 1920 수 찾기.cpp" />
+    <ClCompile Include="codingTest\[백] s4 1978 소수 찾기.cpp" />
+    <ClCompile Include="codingTest\[백] s4 2164 카드2.cpp" />
+    <ClCompile Include="codingTest\[백] s4 9012 괄호.cpp" />
+    <ClCompile Include="codingTest\[백] s5 10814 나이순 정렬.cpp" />
+    <ClCompile Include="codingTest\[백] s5 10989 수 정렬하기3.cpp" />
+    <ClCompile Include="codingTest\[백] s5 11650 좌표 정렬하기.cpp" />
+    <ClCompile Include="codingTest\[백] s5 11651 좌표 정렬하기 2.cpp" />
+    <ClCompile Include="codingTest\[백] s5 1436 영화감독 숌.cpp" />
+    <ClCompile Include="codingTest\[백] s5 2303 숫자 게임.cpp" />
+    <ClCompile Include="codingTest\[백] s5 2609 최대공약수와 최소공배수.cpp" />
+    <ClCompile Include="codingTest\[백] s5 7113 Rectangle.cpp" />
+    <ClCompile Include="codingTest\[백] s2 11724 연결 요소의 개수.cpp" />
+    <ClCompile Include="codingTest\[백] s5 7568 덩치.cpp" />
+    <ClCompile Include="codingTest\[백]_____ 게임.cpp" />
+    <ClCompile Include="codingTest\[프] l2 숫자의 표현.cpp" />
+    <ClCompile Include="codingTest\[프] l2 최댓값과 최솟값.cpp" />
+    <ClCompile Include="codingTest\[프] l2 최솟값 만들기.cpp" />
+    <ClCompile Include="codingTest\[프] l3 정수 삼각형.cpp" />
+    <ClCompile Include="codingTest\[프]________리틀 프렌즈 사천성 .cpp" />
+    <ClCompile Include="codingTest\[_백준포맷_].cpp" />
+    <ClCompile Include="codingTest\[백] b1 1145 적어도 대부분의 배수.cpp" />
+    <ClCompile Include="common\3차원 배열 동적할당.cpp" />
+    <ClCompile Include="binaryTree\binaryTree.cpp" />
+    <ClCompile Include="binaryTree\binSrchTree.cpp" />
+    <ClCompile Include="binaryTree\recordDictionary.cpp" />
+    <ClCompile Include="binaryTree\threadedBinTree.cpp" />
+    <ClCompile Include="codingTest\[백] s5 1158 요세푸스 문제.cpp" />
+    <ClCompile Include="codingTest\[백] b1 2869 달팽이는 올라가고 싶다.cpp" />
+    <ClCompile Include="common\병합 정렬.cpp" />
+    <ClCompile Include="graph\adjListGraph.cpp" />
+    <ClCompile Include="graph\adjMatGraph.cpp" />
+    <ClCompile Include="graph\connectedComponentGraph.cpp" />
+    <ClCompile Include="graph\srchALGraph.cpp" />
+    <ClCompile Include="graph\srchAMGraph.cpp" />
+    <ClCompile Include="graph\topoSortGraph.cpp" />
+    <ClCompile Include="heap,priorityQueue\heapSort.cpp" />
+    <ClCompile Include="heap,priorityQueue\hoffmanCode.cpp" />
+    <ClCompile Include="heap,priorityQueue\maxHeap.cpp" />
+    <ClCompile Include="list\arrayList.cpp" />
+    <ClCompile Include="list\dblLinkedList.cpp" />
+    <ClCompile Include="list\linkedDeque.cpp" />
+    <ClCompile Include="list\linkedList.cpp" />
+    <ClCompile Include="common\DFS, BFS.cpp" />
+    <ClCompile Include="common\dynamic_cast.cpp" />
+    <ClCompile Include="common\find_if로 문자 포함된 모든 요소 검색 + 부정자 사용.cpp" />
+    <ClCompile Include="common\integer overflow, strcpy함수, null terminated string, stack overflow.cpp" />
+    <ClCompile Include="linkedListQueue\linkedQueue.cpp" />
+    <ClCompile Include="linkedListQueue\studentQueueMain.cpp" />
+    <ClCompile Include="common\qsort.c" />
+    <ClCompile Include="queue,deque\bfs %28queue%29.cpp" />
+    <ClCompile Include="queue,deque\circularDeque.cpp" />
+    <ClCompile Include="queue,deque\circularQueue.cpp" />
+    <ClCompile Include="queue,deque\dfs,bfs %28deque%29.cpp" />
+    <ClCompile Include="queue,deque\fibonachi %28queue%29.cpp" />
+    <ClCompile Include="recursion\connectedComponent.cpp" />
+    <ClCompile Include="recursion\location2DRecursion.cpp" />
+    <ClCompile Include="recursion\순환 예제.cpp" />
+    <ClCompile Include="common\Shared_ptr,  Weak_ptr.cpp" />
+    <ClCompile Include="stack\location2D.cpp" />
+    <ClCompile Include="stack\checkMatching.cpp" />
+    <ClCompile Include="stack\evalPostfixMain.cpp" />
+    <ClCompile Include="linkedListStack\studentLinkedStack.cpp" />
+    <ClCompile Include="stack\studentStack.cpp" />
+    <ClCompile Include="common\strstr.cpp" />
+    <ClCompile Include="linkedListtextEditor\textEditor.cpp" />
+    <ClCompile Include="common\TextRPG.cpp" />
+    <ClCompile Include="common\Vector2.cpp" />
+    <ClCompile Include="common\[_] Effective C++.cpp" />
+    <ClCompile Include="codingTest\[백] b5 1550 16진수.cpp" />
+    <ClCompile Include="codingTest\[백] s3 1463 1로 만들기.cpp" />
+    <ClCompile Include="codingTest\[백] b1 2007년.cpp" />
+    <ClCompile Include="codingTest\[백] b2 3040 백설 공주와 일곱 난쟁이.cpp" />
+    <ClCompile Include="codingTest\[백] s5 1769 3의 배수.cpp" />
+    <ClCompile Include="codingTest\[백] b2 8958 OX퀴즈.cpp" />
+    <ClCompile Include="codingTest\[백] b3 b1 11718 11719 그대로 출력하기 1, 2.cpp" />
+    <ClCompile Include="codingTest\[백] s5 1316 그룹 단어 체커.cpp" />
+    <ClCompile Include="codingTest\[백] b2 1075 나누기.cpp" />
+    <ClCompile Include="codingTest\[백] s5 1010 다리 놓기 %28경우의수 파스칼삼각형%29.cpp" />
+    <ClCompile Include="codingTest\[백] s5 1181 단어 정렬.cpp" />
+    <ClCompile Include="codingTest\[백] b2 1152 단어의 개수.cpp" />
+    <ClCompile Include="codingTest\[백] b1 1110 더하기 사이클.cpp" />
+    <ClCompile Include="codingTest\[백] b1 1032 명령 프롬프트.cpp" />
+    <ClCompile Include="codingTest\[백] b1 1157 단어 공부.cpp" />
+    <ClCompile Include="codingTest\[백] s4 1543 문서 검색.cpp" />
+    <ClCompile Include="codingTest\[백] b2 2292 벌집.cpp" />
+    <ClCompile Include="codingTest\[백] b3 2522 2446... 등 별찍기 모음.cpp" />
+    <ClCompile Include="codingTest\[백] b3 1009 분산처리.cpp" />
+    <ClCompile Include="codingTest\[백] s5 4673 셀프 넘버.cpp" />
+    <ClCompile Include="codingTest\[백] b2 2920 음계.cpp" />
+    <ClCompile Include="codingTest\[백] b3 3460 이진수.cpp" />
+    <ClCompile Include="codingTest\[백] b1 2669 직사각형 네개의 합집합의 면적 구하기.cpp" />
+    <ClCompile Include="codingTest\[백] s5 1018 체스판 다시 칠하기.cpp" />
+    <ClCompile Include="codingTest\[백] s4 1002 터렛.cpp" />
+    <ClCompile Include="codingTest\[백] b1 4344 평균은 넘겠지.cpp" />
+    <ClCompile Include="codingTest\[백] b1 2748 피보나치 수 2.cpp" />
+    <ClCompile Include="codingTest\[백] s4 1065 한수.cpp" />
+    <ClCompile Include="codingTest\[백] s4 1021 회전하는 큐.cpp" />
+    <ClCompile Include="codingTest\[코] 성실한 개미.cpp" />
+    <ClCompile Include="codingTest\[코] 정수 1개 입력받아 나누어 출력하기.cpp" />
+    <ClCompile Include="codingTest\[프]_____ 문자열 압축.cpp" />
+    <ClCompile Include="codingTest\[프] l2 124 나라의 숫자.cpp" />
+    <ClCompile Include="codingTest\[프] l1 2016년.cpp" />
+    <ClCompile Include="codingTest\[프] 3진법 뒤집기.cpp" />
+    <ClCompile Include="codingTest\[프] l2 JadenCase 문자열 만들기cpp.cpp" />
+    <ClCompile Include="codingTest\[프] l1 K번째수.cpp" />
+    <ClCompile Include="codingTest\[프] l2 N개의 최소공배수.cpp" />
+    <ClCompile Include="codingTest\[프] l2 게임 맵 최단거리.cpp" />
+    <ClCompile Include="codingTest\[프] l1 다트 게임.cpp" />
+    <ClCompile Include="codingTest\[프] l2 단체사진 찍기.cpp" />
+    <ClCompile Include="codingTest\[프] l2 더 맵게 %28우선순위 큐%29.cpp" />
+    <ClCompile Include="codingTest\[프] l1 두 개 뽑아서 더하기.cpp" />
+    <ClCompile Include="codingTest\[프] l1 두 정수 사이의 합.cpp" />
+    <ClCompile Include="codingTest\[프] l1 멀쩡한 사각형.cpp" />
+    <ClCompile Include="codingTest\[프] l1 모의고사.cpp" />
+    <ClCompile Include="codingTest\[프] l1 문자열 내 마음대로 정렬하기.cpp" />
+    <ClCompile Include="codingTest\[프] l1 문자열 압축.cpp" />
+    <ClCompile Include="codingTest\[프] l1 부족한 금액 계산하기.cpp" />
+    <ClCompile Include="codingTest\[프] l1 비밀지도.cpp" />
+    <ClCompile Include="codingTest\[프] l1 소수 만들기.cpp" />
+    <ClCompile Include="codingTest\[프] l1 소수 찾기.cpp" />
+    <ClCompile Include="codingTest\[프] l1 시저 암호.cpp" />
+    <ClCompile Include="codingTest\[프] l1 실패율.cpp" />
+    <ClCompile Include="codingTest\[프] l1 약수의 개수와 덧셈.cpp" />
+    <ClCompile Include="codingTest\[프] l1 예산.cpp" />
+    <ClCompile Include="codingTest\[프] l2 오픈채팅방.cpp" />
+    <ClCompile Include="codingTest\[프] l1 완주하지 못한 선수.cpp" />
+    <ClCompile Include="codingTest\[프] l1 음양 더하기.cpp" />
+    <ClCompile Include="codingTest\[프] l2 짝지어 제거하기.cpp" />
+    <ClCompile Include="codingTest\[프] l1 체육복.cpp" />
+    <ClCompile Include="codingTest\[프] l1 최소직사각형.cpp" />
+    <ClCompile Include="codingTest\[프] l2 카카오 프렌즈 컬러링북 %28bfs%29.cpp" />
+    <ClCompile Include="codingTest\[프] l1 크레인 인형뽑기 게임.cpp" />
+    <ClCompile Include="codingTest\[코] 석차.cpp" />
+    <ClCompile Include="codingTest\[프] l1 숫자 문자열과 영단어 - 모범2.cpp" />
+    <ClCompile Include="codingTest\[프] l1 숫자 문자열과 영단어.cpp" />
+    <ClCompile Include="codingTest\[프] l1 숫자 문자열과 영단어 - 모범1.cpp" />
+    <ClCompile Include="codingTest\[프] l1 신규 아이디 추천 - 모범.cpp" />
+    <ClCompile Include="codingTest\[프] l1 신규 아이디 추천.cpp" />
+    <ClCompile Include="codingTest\[코] 입체기동장치 생산공장.cpp" />
+    <ClCompile Include="codingTest\[프] l1 키패드 누르기.cpp" />
+    <ClCompile Include="codingTest\[프]______카카오프렌즈 컬러링북.cpp" />
+    <ClCompile Include="codingTest\[프] l2 타겟 넘버.cpp" />
+    <ClCompile Include="codingTest\[프] l1 폰켓몬.cpp" />
+    <ClCompile Include="codingTest\[프] l2 피보나치 수.cpp" />
+    <ClCompile Include="codingTest\[프] l2 행렬의 곱셈.cpp" />
+    <ClCompile Include="codingTest\[프]_________.cpp" />
+    <ClCompile Include="codingTest\[백] b1 2167 2차원 배열의 합.cpp" />
+    <ClCompile Include="common\_C, C++ 기본 문법 문제 1.cpp" />
+    <ClCompile Include="common\_C, C++ 기본 문법 문제 2.cpp" />
+    <ClCompile Include="common\거듭제곱 알고리즘.cpp" />
+    <ClCompile Include="common\디아블로식 인벤토리 - 모범.cpp" />
+    <ClCompile Include="common\디아블로식 인벤토리.cpp" />
+    <ClCompile Include="common\가변인자함수 %28백준1463%29.cpp" />
+    <ClCompile Include="common\내적.cpp" />
+    <ClCompile Include="common\다항식 %28미완성%29.cpp" />
+    <ClCompile Include="common\두더지 게임 백업.cpp" />
+    <ClCompile Include="common\람다 예제.cpp" />
+    <ClCompile Include="codingTest\[프] l1 로또의 최고 순위와 최저 순위 %28c%292.c" />
+    <ClCompile Include="common\마우스 매크로.cpp" />
+    <ClCompile Include="common\문자를 숫자로.c" />
+    <ClCompile Include="common\문자를 숫자로.cpp" />
+    <ClCompile Include="common\문자열 함수 구현.cpp" />
+    <ClCompile Include="codingTest\[프] l1 없는 숫자 더하기.cpp" />
+    <ClCompile Include="codingTest\[백] s5 1037 약수.cpp" />
+    <ClCompile Include="common\정렬의 모든 것.cpp" />
+    <ClCompile Include="common\주소 입력 - 벡터화.cpp" />
+    <ClCompile Include="common\복사생성자 복사대입연산자 이동생성자 이동대입연산자.cpp" />
+    <ClCompile Include="common\사다리.cpp" />
+    <ClCompile Include="common\사이 짝수 합 %28수학적인 방법%29.cpp" />
+    <ClCompile Include="common\셔플1.cpp" />
+    <ClCompile Include="common\스택 계산기.c" />
+    <ClCompile Include="common\스택 계산기.cpp" />
+    <ClCompile Include="common\연산자 정리.cpp" />
+    <ClCompile Include="common\입력 버퍼 스트림 지우기.cpp" />
+    <ClCompile Include="common\주소 입력 - 링크드 리스트.c" />
+    <ClCompile Include="common\주소 입력 - 클래스화.cpp" />
+    <ClCompile Include="common\코드 실행 시간 측정.cpp" />
+    <ClCompile Include="common\콘솔창 문자 이동.cpp" />
+    <ClCompile Include="common\포인터 연산.c" />
+    <ClCompile Include="common\프로젝트 경로.cpp" />
+    <ClCompile Include="common\플래그.cpp" />
+    <ClCompile Include="codingTest\[프] l1 로또의 최고 순위와 최저 순위 %28c++%29.cpp" />
+    <ClCompile Include="codingTest\[프] l2 기능개발 %28스택큐%29.cpp" />
+    <ClCompile Include="common\문자열 동적배열 모범.cpp" />
+    <ClCompile Include="common\문자열 동적배열 수정전.cpp" />
+    <ClCompile Include="common\문자열 동적배열.cpp" />
+    <ClCompile Include="common\이동생성자.cpp" />
+    <ClCompile Include="common\표준 이동생성자.cpp" />
+    <ClCompile Include="common\하노이의 탑 알고리즘.cpp" />
+    <ClCompile Include="wGraph\shortestPathDijkstra.cpp" />
+    <ClCompile Include="wGraph\shortestPathFloyd.cpp" />
+    <ClCompile Include="wGraph\wGraph.cpp" />
+    <ClCompile Include="wGraph\wGraphMST.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="binaryTree\binaryNode.h" />
+    <ClInclude Include="binaryTree\binaryTree.h" />
+    <ClInclude Include="binaryTree\binSrchTree.h" />
+    <ClInclude Include="binaryTree\circularQueue.h" />
+    <ClInclude Include="binaryTree\record.h" />
+    <ClInclude Include="binaryTree\recordBinaryNode.h" />
+    <ClInclude Include="binaryTree\recordBinaryTree.h" />
+    <ClInclude Include="binaryTree\recordBinSrchTree.h" />
+    <ClInclude Include="binaryTree\recordDictionary.h" />
+    <ClInclude Include="binaryTree\threadedBinNode.h" />
+    <ClInclude Include="binaryTree\threadedBinTree.h" />
+    <ClInclude Include="graph\adjListGraph.h" />
+    <ClInclude Include="graph\adjMatGraph.h" />
+    <ClInclude Include="graph\arrayStack.h" />
+    <ClInclude Include="graph\circularQueue.h" />
+    <ClInclude Include="graph\connectedComponentGraph.h" />
+    <ClInclude Include="graph\node.h" />
+    <ClInclude Include="graph\srchALGraph.h" />
+    <ClInclude Include="graph\srchAMGraph.h" />
+    <ClInclude Include="graph\topoSortGraph.h" />
+    <ClInclude Include="heap,priorityQueue\heapNode.h" />
+    <ClInclude Include="heap,priorityQueue\maxHeap.h" />
+    <ClInclude Include="heap,priorityQueue\minHeap.h" />
+    <ClInclude Include="heap,priorityQueue\priorityQueue.h" />
+    <ClInclude Include="list\arrayList.h" />
+    <ClInclude Include="list\dblLinkedList.h" />
+    <ClInclude Include="list\linkedDeque.h" />
+    <ClInclude Include="list\linkedList.h" />
+    <ClInclude Include="list\node2List.h" />
+    <ClInclude Include="list\nodeList.h" />
+    <ClInclude Include="linkedListQueue\linkedQueue.h" />
+    <ClInclude Include="linkedListQueue\nodeQueue.h" />
+    <ClInclude Include="linkedListQueue\student.h" />
+    <ClInclude Include="linkedListQueue\studentQueue.h" />
+    <ClInclude Include="linkedListStack\student.h" />
+    <ClInclude Include="queue,deque\backSimulator%28미완성%29.h" />
+    <ClInclude Include="queue,deque\circularDeque.h" />
+    <ClInclude Include="queue,deque\circularQueue.h" />
+    <ClInclude Include="queue,deque\customer.h" />
+    <ClInclude Include="linkedListStack\linkedStack.h" />
+    <ClInclude Include="recursion\location2DRecursion.h" />
+    <ClInclude Include="stack\location2D.h" />
+    <ClInclude Include="stack\arrayStack.h" />
+    <ClInclude Include="linkedListStack\nodeStack.h" />
+    <ClInclude Include="stack\operandStack.h" />
+    <ClInclude Include="stack\student.h" />
+    <ClInclude Include="stack\studentStack.h" />
+    <ClInclude Include="linkedListtextEditor\line.h" />
+    <ClInclude Include="linkedListtextEditor\lineEditor.h" />
+    <ClInclude Include="linkedListtextEditor\linkedList.h" />
+    <ClInclude Include="linkedListtextEditor\node.h" />
+    <ClInclude Include="common\Turboc.h" />
+    <ClInclude Include="wGraph\adjMatGraph.h" />
+    <ClInclude Include="wGraph\heapNode.h" />
+    <ClInclude Include="wGraph\minHeap.h" />
+    <ClInclude Include="wGraph\vertextSets.h" />
+    <ClInclude Include="wGraph\wGraph.h" />
+    <ClInclude Include="wGraph\wGraphDijkstra.h" />
+    <ClInclude Include="wGraph\wGraphFloyd.h" />
+    <ClInclude Include="wGraph\wGraphMST.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{CCD7FC91-F803-4A63-AB1F-232B7C216F3B}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Archive</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
