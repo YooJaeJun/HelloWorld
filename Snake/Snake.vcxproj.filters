@@ -10,24 +10,12 @@
     <ClCompile Include="Snake.cpp">
       <Filter>Game</Filter>
     </ClCompile>
-    <ClCompile Include="..\ShootGoalIn\Coord.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShootGoalIn\Fps.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShootGoalIn\Screen.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShootGoalIn\Unit.cpp">
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Unit.cpp">
       <Filter>Game</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Core">
-      <UniqueIdentifier>{41867c97-d4dd-4394-b503-0f8fa768bef5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="DataStructure">
       <UniqueIdentifier>{f336c9a6-36ea-4b17-86eb-53a52b5f4459}</UniqueIdentifier>
     </Filter>
@@ -36,9 +24,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Color.h">
-      <Filter>Core</Filter>
-    </ClInclude>
     <ClInclude Include="Node.h">
       <Filter>DataStructure</Filter>
     </ClInclude>
@@ -55,16 +40,7 @@
       <Filter>Game</Filter>
     </ClInclude>
     <ClInclude Include="framework.h" />
-    <ClInclude Include="..\ShootGoalIn\Coord.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShootGoalIn\Fps.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShootGoalIn\Screen.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShootGoalIn\Unit.h">
+    <ClInclude Include="Unit.h">
       <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>

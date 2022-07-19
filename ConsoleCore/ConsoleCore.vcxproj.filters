@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\ShootGoalIn\Screen.h" />
+    <ClInclude Include="..\ShootGoalIn\Coord.h" />
+    <ClInclude Include="..\ShootGoalIn\Fps.h" />
+    <ClInclude Include="Color.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ShootGoalIn\Coord.cpp" />
+    <ClCompile Include="..\ShootGoalIn\Fps.cpp" />
+    <ClCompile Include="..\ShootGoalIn\Screen.cpp" />
+  </ItemGroup>
+</Project>

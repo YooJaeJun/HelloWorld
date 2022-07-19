@@ -4,9 +4,6 @@
     <Filter Include="Unit">
       <UniqueIdentifier>{b65799f8-dd21-4cbc-b825-2142401e6941}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Core">
-      <UniqueIdentifier>{272940d8-b083-4494-b838-05fbc27d8c09}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ball.h">
@@ -17,15 +14,6 @@
     </ClInclude>
     <ClInclude Include="Unit.h">
       <Filter>Unit</Filter>
-    </ClInclude>
-    <ClInclude Include="Screen.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Coord.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Fps.h">
-      <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="framework.h" />
     <ClInclude Include="GoalPost.h">
@@ -41,15 +29,6 @@
     </ClCompile>
     <ClCompile Include="Unit.cpp">
       <Filter>Unit</Filter>
-    </ClCompile>
-    <ClCompile Include="Coord.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Fps.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Screen.cpp">
-      <Filter>Core</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="GoalPost.cpp">

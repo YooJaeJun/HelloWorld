@@ -6,7 +6,7 @@
 #include "LinkedList.h"
 #include "Node.h"
 
-#include "Screen.h"
+#include "../ConsoleCore/Color.h"
 #include "Fps.h"
 #include "Color.h"
 #include "Coord.h"

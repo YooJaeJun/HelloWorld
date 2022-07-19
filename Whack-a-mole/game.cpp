@@ -1,7 +1,7 @@
 #include "main.h"
 #include "game.h"
 #include "image/frame_image.h"
-#include "math/vec.h"
+#include "../WinAPICore/math/vec.h"
 //#include "object/monster.h"
 
 namespace yjj {

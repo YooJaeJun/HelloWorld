@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3f355dd2-2be0-4448-ad86-2b8d253c5e8a}</ProjectGuid>
-    <RootNamespace>Snake</RootNamespace>
+    <ProjectGuid>{4cae82af-3a69-4371-9bb3-b304f6957396}</ProjectGuid>
+    <RootNamespace>ConsoleCore</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -116,8 +116,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Create</PrecompiledHeader>
-      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,20 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GameCore.cpp" />
-    <ClCompile Include="Item.cpp" />
-    <ClCompile Include="Snake.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Unit.cpp" />
+    <ClInclude Include="..\ShootGoalIn\Coord.h" />
+    <ClInclude Include="..\ShootGoalIn\Fps.h" />
+    <ClInclude Include="..\ShootGoalIn\Screen.h" />
+    <ClInclude Include="Color.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameCore.h" />
-    <ClInclude Include="Item.h" />
-    <ClInclude Include="LinkedList.h" />
-    <ClInclude Include="Node.h" />
-    <ClInclude Include="Snake.h" />
-    <ClInclude Include="framework.h" />
-    <ClInclude Include="Unit.h" />
+    <ClCompile Include="..\ShootGoalIn\Coord.cpp" />
+    <ClCompile Include="..\ShootGoalIn\Fps.cpp" />
+    <ClCompile Include="..\ShootGoalIn\Screen.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
