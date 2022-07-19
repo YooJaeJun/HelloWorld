@@ -1,8 +1,8 @@
 
 #pragma once
-#include "core/core.h"
+#include "../WinAPICore/core/core.h"
 #include "bitmap/bitmap.h"
-#include "shape/collider.h"
+#include "../WinAPICore/shape/collider.h"
 #include "object/monster.h"
 
 namespace yjj {

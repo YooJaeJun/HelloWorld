@@ -1,6 +1,6 @@
 ﻿// Whack-a-mole.cpp : 애플리케이션에 대한 진입점을 정의합니다.
 #include "main.h"
-#include "../Core/math/vec.h"
+#include "../WinAPICore/math/vec.h"
 #include "bitmap/bitmap.h"
 #include "game.h"
 

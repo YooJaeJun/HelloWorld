@@ -116,6 +116,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>framework.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,15 +141,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\ShootGoalIn\Coord.h" />
-    <ClInclude Include="..\ShootGoalIn\Fps.h" />
-    <ClInclude Include="..\ShootGoalIn\Screen.h" />
     <ClInclude Include="Color.h" />
+    <ClInclude Include="Coord.h" />
+    <ClInclude Include="Fps.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="framework.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ShootGoalIn\Coord.cpp" />
-    <ClCompile Include="..\ShootGoalIn\Fps.cpp" />
-    <ClCompile Include="..\ShootGoalIn\Screen.cpp" />
+    <ClCompile Include="Coord.cpp" />
+    <ClCompile Include="Fps.cpp" />
+    <ClCompile Include="Screen.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

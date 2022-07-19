@@ -16,20 +16,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="DataStructure">
-      <UniqueIdentifier>{f336c9a6-36ea-4b17-86eb-53a52b5f4459}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Game">
       <UniqueIdentifier>{5ee4861c-1ba0-485d-b2be-e8d18cb577aa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Node.h">
-      <Filter>DataStructure</Filter>
-    </ClInclude>
-    <ClInclude Include="LinkedList.h">
-      <Filter>DataStructure</Filter>
-    </ClInclude>
     <ClInclude Include="GameCore.h">
       <Filter>Game</Filter>
     </ClInclude>

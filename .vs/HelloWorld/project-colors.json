@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fdf32e64-cd67-4e3f-bb5a-965ffd4c169b": {
+      "ProjectGuid": "fdf32e64-cd67-4e3f-bb5a-965ffd4c169b",
+      "DisplayName": "Whack-a-mole",
+      "ColorIndex": 0
+    },
+    "3f355dd2-2be0-4448-ad86-2b8d253c5e8a": {
+      "ProjectGuid": "3f355dd2-2be0-4448-ad86-2b8d253c5e8a",
+      "DisplayName": "Snake",
+      "ColorIndex": 1
+    },
+    "4cae82af-3a69-4371-9bb3-b304f6957396": {
+      "ProjectGuid": "4cae82af-3a69-4371-9bb3-b304f6957396",
+      "DisplayName": "ConsoleCore",
+      "ColorIndex": 2
+    },
+    "29cce833-f995-4c6e-8a7f-2815f5758fa4": {
+      "ProjectGuid": "29cce833-f995-4c6e-8a7f-2815f5758fa4",
+      "DisplayName": "ShootGoalIn",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

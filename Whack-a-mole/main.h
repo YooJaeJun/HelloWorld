@@ -1,7 +1,6 @@
 #pragma once
 #include "resource.h"
-#include "../Core/core/core.h"
-
+#include "../WinAPICore/core/core.h"
 
 namespace yjj {
 	class main {

@@ -1,11 +1,10 @@
 #pragma once
-#include <iostream>
-#include <vector>
-#include <cassert>
 
-#include "Screen.h"
-#include "Fps.h"
-#include "Coord.h"
+#include "../ConsoleCore/framework.h"
+#include "../ConsoleCore/Screen.h"
+#include "../ConsoleCore/Fps.h"
+#include "../ConsoleCore/Coord.h"
+
 #include "Unit.h"
 #include "Player.h"
 #include "Ball.h"

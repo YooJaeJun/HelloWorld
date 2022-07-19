@@ -150,8 +150,6 @@
   <ItemGroup>
     <ClInclude Include="GameCore.h" />
     <ClInclude Include="Item.h" />
-    <ClInclude Include="LinkedList.h" />
-    <ClInclude Include="Node.h" />
     <ClInclude Include="Snake.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Unit.h" />

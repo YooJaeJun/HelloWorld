@@ -9,7 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Archive", "Archive\Archive.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Whack-a-mole", "Whack-a-mole\Whack-a-mole.vcxproj", "{FDF32E64-CD67-4E3F-BB5A-965FFD4C169B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Core\Core.vcxproj", "{3E3D57F5-9C11-49D4-8D7D-F2F53D0313FE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinAPICore", "WinAPICore\WinAPICore.vcxproj", "{3E3D57F5-9C11-49D4-8D7D-F2F53D0313FE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShootGoalIn", "ShootGoalIn\ShootGoalIn.vcxproj", "{29CCE833-F995-4C6E-8A7F-2815F5758FA4}"
 EndProject
