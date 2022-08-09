@@ -7,18 +7,36 @@ using vi = vector<int>;
 using vvi = vector<vector<int>>;
 using db = deque<bool>;
 using ddb = deque<deque<bool>>;
-#define yes cout << "YES\n";
-#define no cout << "NO\n";
 #define forn(i, n) for (int i = 0; i < (int)n; i++)
 #define forn1(i, n) for (int i = 1; i <= (int)n; i++)
-const int maxn = 1e9 + 7;
-const double mod = 1e9 + 7;
-#define checkGrid() if (nx < 0 or nx >= n or ny < 0 or ny >= n) continue;
+#define inGrid() ((nr >= 0) and (nr < n) and (nc >= 0) and (nc < m))
+int dr[4] = { 0,0,-1,1 };
+int dc[4] = { -1,1,0,0 };	// ÁÂ¿ì»óÇÏ
 
 
 void solution()
 {
+	int n;
+	cin >> n;
+	vi v(n);
+	forn(i, n) cin >> v[i];
+	sort(v.begin(), v.end());
+	int m;
+	cin >> m;
 
+	int start = 0, end = v[n - 1], mid;
+	int sum = 0;
+	while (start <= end)
+	{
+		mid = (start + end) / 2;
+		
+		sum = 0;
+		forn (i, n) sum += min(v[i], mid);
+
+		if (sum <= m) start = mid + 1;
+		else end = mid - 1;
+	}
+	cout << end;
 }
 
 int32_t main()
