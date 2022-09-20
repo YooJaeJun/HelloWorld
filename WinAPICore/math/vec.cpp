@@ -125,7 +125,7 @@ namespace yjj {
 	}
 
 	float vec2f::ccw(const vec2f& p) const {
-		return x() * p.y() - x() * p.y();
+		return x() * p.y() - p.x() * y();
 	}
 
 	float vec2f::reciprocal(const float val) const {

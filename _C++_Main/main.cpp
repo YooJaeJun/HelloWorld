@@ -16,27 +16,27 @@ int dc[4] = { -1,1,0,0 };	// ÁÂ¿ì»óÇÏ
 
 void solution()
 {
-	int n;
-	cin >> n;
-	vi v(n);
-	forn(i, n) cin >> v[i];
-	sort(v.begin(), v.end());
-	int m;
-	cin >> m;
+	struct Vector2 
+	{ 
+		float x, y; 
+		Vector2(const float a, const float b) : x(a), y(b) {}
+		bool operator<(const Vector2& other) const
+		{
+			return x < other.x&& y < other.y;
+		}
+	};
+	map<Vector2, float> dic;
+	dic.insert({ Vector2(1.5f, 2.5f), 1.0f });
+	dic.insert({ Vector2(1.5f, 2.6f), 2.0f });
 
-	int start = 0, end = v[n - 1], mid;
-	int sum = 0;
-	while (start <= end)
-	{
-		mid = (start + end) / 2;
-		
-		sum = 0;
-		forn (i, n) sum += min(v[i], mid);
 
-		if (sum <= m) start = mid + 1;
-		else end = mid - 1;
-	}
-	cout << end;
+
+
+	map<pair<int, int>, vector<int>> m;
+	m[{2, 3}].push_back(4);
+	m[{2, 3}].push_back(5);
+
+	return;
 }
 
 int32_t main()

@@ -59,7 +59,9 @@ namespace yjj {
 		//각 선분의 begin에서 다른 선분의 begin까지, end까지 외적이 하나는 양수, 하나는 음수로 나와야 함. 다른 선의 begin도 반복.
 
 		//두 선분이 한 직선 위에 있거나, 끝점이 겹치는 경우
-		if (begin1.ccw(begin2) * begin1.ccw(end2) == 0 && begin2.ccw(begin1) * begin2.ccw(end1) == 0) {
+		float ccw1 = begin1.ccw(begin2) * begin1.ccw(end2);
+		float ccw2 = begin2.ccw(begin1) * begin2.ccw(end1);
+		if (ccw1 == 0 && ccw2 == 0) {
 			//공식 참고. 원리 이해는 못함
 			if (comparator(end1, begin1)) {
 				swap(begin1, end1);
@@ -77,7 +79,7 @@ namespace yjj {
 			}
 		}
 		//중간점이 겹치는 경우
-		else if (begin1.ccw(begin2) * begin1.ccw(end2) <= 0 && begin2.ccw(begin1) * begin2.ccw(end1) <= 0) {
+		else if (ccw1 <= 0 && ccw2 <= 0) {
 			return collide_type::intersect;
 		}
 		return collide_type::none;

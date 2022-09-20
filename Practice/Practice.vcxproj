@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -19,19 +19,43 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Application\Application.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Application\Tilemap.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Application\WindowsHelper.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Generator\Cave.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Generator\Dungeon.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Generator\Forest.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Generator\Generator.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Generator\Room.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Generator\Spaceship.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Main.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Map\Map.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Utility\Direction.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Utility\Rng.cpp" />
+    <ClCompile Include="ProceduralMapGenerator\Utility\Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="input.txt" />
-    <Text Include="output.txt" />
+    <ClInclude Include="ProceduralMapGenerator\Application\Application.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Application\Tilemap.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Application\WindowsHelper.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Generator\Cave.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Generator\Dungeon.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Generator\Forest.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Generator\Generator.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Generator\Room.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Generator\Spaceship.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Map\Map.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Map\Tile.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Utility\Direction.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Utility\Rng.hpp" />
+    <ClInclude Include="ProceduralMapGenerator\Utility\Utility.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{0350E665-A3E8-4FF3-94FC-2AB258286B40}</ProjectGuid>
+    <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>HelloWorld1</RootNamespace>
+    <ProjectGuid>{dd3dc1e7-72b2-429f-ad7e-9017a857fce1}</ProjectGuid>
+    <RootNamespace>Practice</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>_C++_Main</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -81,42 +105,21 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>HelloWorld1.h</PrecompiledHeaderFile>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
-    </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <GenerateMapFile>true</GenerateMapFile>
-    </Link>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <ClCompile>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
-      <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,15 +129,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>HelloWorld1.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,17 +142,28 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\zoflq\source\repos\SFML-2.5.1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\zoflq\source\repos\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

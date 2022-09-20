@@ -16,7 +16,8 @@ int dc[4] = { -1,1,0,0 };	// ÁÂ¿ì»óÇÏ
 
 void solution()
 {
-
+	int n;
+	cin >> n;
 }
 
 int32_t main()
