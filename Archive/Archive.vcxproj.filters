@@ -276,6 +276,12 @@
     <ClCompile Include="common\병합 정렬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="codingTest\[_리트코드포맷_].cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="codingTest\[_프로그래머스포맷_].cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\Turboc.h">

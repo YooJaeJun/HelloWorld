@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="codingTest\[_리트코드포맷_].cpp" />
     <ClCompile Include="codingTest\[_백준포맷_].cpp" />
+    <ClCompile Include="codingTest\[_프로그래머스포맷_].cpp" />
     <ClCompile Include="common\3차원 배열 동적할당.cpp" />
     <ClCompile Include="binaryTree\binaryTree.cpp" />
     <ClCompile Include="binaryTree\binSrchTree.cpp" />
