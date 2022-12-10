@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="input.txt" />
+    <Text Include="output.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="input.txt" />
-    <Text Include="output.txt" />
   </ItemGroup>
 </Project>
