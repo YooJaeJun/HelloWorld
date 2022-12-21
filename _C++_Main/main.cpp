@@ -16,33 +16,10 @@ int dc[4] = { -1,1,0,0 };	// ÁÂ¿ì»óÇÏ
 
 void solution()
 {
-	int n = 7;
-	vi v{ 5,2,4,1,3,7,6 };
-
-	function<void(int, int)> QuickSort = [&](int l, int r)
-	{
-		if (l >= r) return;
-
-		int pivot = l;
-		int j = pivot;
-
-		for (int i = l + 1; i <= r; i++)
-		{
-			if (v[i] < v[pivot])
-			{
-				j++;
-				swap(v[i], v[j]);
-			}
-		}
-		swap(v[l], v[j]);
-		pivot = j;
-
-		QuickSort(l, pivot - 1);
-		QuickSort(pivot + 1, r);
-	};
-	QuickSort(0, n - 1);
-
-	forn(i, n) cout << v[i] << ' ';
+	int n;
+	cin >> n;
+	vi v(n);
+	forn(i, n) cin >> v[i];
 }
 
 int32_t main()
