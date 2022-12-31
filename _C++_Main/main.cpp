@@ -20,6 +20,7 @@ void solution()
 	cin >> n;
 	vi v(n);
 	forn(i, n) cin >> v[i];
+
 }
 
 int32_t main()
