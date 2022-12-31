@@ -13,10 +13,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinAPICore", "WinAPICore\Wi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleCore", "ConsoleCore\ConsoleCore.vcxproj", "{4CAE82AF-3A69-4371-9BB3-B304F6957396}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice", "Practice\Practice.vcxproj", "{DD3DC1E7-72B2-429F-AD7E-9017A857FCE1}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesignPattern", "DesignPattern\DesignPattern.vcxproj", "{68395803-25CA-4427-B936-497D7517C3D4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
