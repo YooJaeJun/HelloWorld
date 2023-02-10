@@ -282,6 +282,9 @@
     <ClCompile Include="codingTest\[_프로그래머스포맷_].cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CheckMemoryLeak.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common\Turboc.h">

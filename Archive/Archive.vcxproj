@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CheckMemoryLeak.cpp" />
     <ClCompile Include="codingTest\[_리트코드포맷_].cpp" />
     <ClCompile Include="codingTest\[_백준포맷_].cpp" />
     <ClCompile Include="codingTest\[_프로그래머스포맷_].cpp" />

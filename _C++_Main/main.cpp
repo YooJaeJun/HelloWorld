@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <deque>
 using namespace std;
 #define int int64_t
 using ll = long long;
@@ -16,11 +18,27 @@ int dc[4] = { -1,1,0,0 };	// ÁÂ¿ì»óÇÏ
 
 void solution()
 {
-	int n;
-	cin >> n;
-	vi v(n);
-	forn(i, n) cin >> v[i];
+	string ans = "UCPC";
+	int idx = 0;
+	
+	string s;
+	while (cin >> s)
+	{
+		if (idx > 3)
+			break;
 
+		int cur = 0;
+		for (auto& ch : s)
+		{
+			while (ch == ans[idx])
+				idx++;
+		}
+	}
+
+	if (idx == 4)
+		cout << "I love UCPC";
+	else
+		cout << "I hate UCPC";
 }
 
 int32_t main()
