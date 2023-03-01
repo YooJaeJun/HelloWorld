@@ -3,13 +3,13 @@
 #include "Timer.h"
 using namespace std;
 
-const int vsize = 50;
+const int vsize = 30;
 vector<long long> v(vsize + 1);
 
 void Pibo(const int size)
 {
 	v[1] = v[2] = 1;
-	for (int i=2; i<=size; i++)
+	for (int i = 2; i <= size; i++)
 	{
 		v[i] = v[i - 2] + v[i - 1];
 	}
